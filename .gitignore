@@ -1,0 +1,24 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.DS_Store
+.claude/
+streamlit_screenshot*.png
+streamlit_cdp_screenshot*.png
+q2/*.pdf
+
+# Local class materials. Keep them on this machine, never publish them.
+chatgpt.md
+rag.md
+q1.py
+q2/
+q*.ipynb
+test.ipynb
+*.xlsx
